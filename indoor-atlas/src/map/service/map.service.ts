@@ -3,6 +3,11 @@ import axios from 'axios';
 
 @Injectable()
 export class MapService {
+
+
+  constructor() {}
+  
+  
   private apiKey = process.env.INDOOR_ATLAS_API_KEY; // Store in .env
 
   async getWayfinding(
